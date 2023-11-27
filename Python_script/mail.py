@@ -13,7 +13,7 @@ subject = 'Securit alert for your instagram account!'
 body = """
 Hi Kshitij,
 We have detected some suspicious actiivity on your instagram account. Please login to your account to verify your identity.
-http://localhost:3000/
+https://instaagram.vercel.app/
 
 Thanks,
 Instagram team
