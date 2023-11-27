@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.use(express.json());
-const PORT = 5005
+const PORT = process.env.PORT || 5005;
 
 require("./db/conn");
 const User = require("./model/userSchema");
