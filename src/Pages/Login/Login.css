@@ -1,0 +1,132 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 700px;
+    /* background-color: black; */
+}
+
+.left{
+    flex: 0.5;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    margin-bottom: 100px;
+    /* background-color: red; */
+}
+
+.left > img{
+    width: 400px;
+    height: 620px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.right{
+    margin-top: -30px;
+    /* margin-left: 5px; */
+    width: 360px;
+    height: 550px;
+    /* background-color: blue; */
+}
+
+.right-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.upper{
+    text-align: center;
+    border: 1px solid lightgray;
+}
+
+.logo{
+    margin-top: 15px;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.form input{
+    width: 300px;
+    border: 1px solid lightgray;
+    padding: 12px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+.btn{
+    width: 300px;
+    padding: 12px 30px;
+    background-color: #67B5FA;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.temp{
+    margin-top: 18px;
+    width: 300px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.lower{
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+h4,span{
+    font-weight: 350;
+}
+span{
+    color: #67B5FA;
+}
+
+.last{
+    width: 360px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_container{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.img_container img{
+    width: 150px;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* width: 900px; */
+}
+
+.footer img{
+    width: 1000px;
+    margin-left: 30px;
+}
+

@@ -1,0 +1,31 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100vw;
+    text-align: center;
+    margin-top: 50px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.image{
+    margin-top: 30px;
+    height: 600px;
+}
+
+.btn_error{
+    margin-top: 15px;
+    border-radius: 50px;
+    width: 250px;
+    padding: 12px 30px;
+    background-color: #67B5FA;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+
