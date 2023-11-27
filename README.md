@@ -1,1 +1,1 @@
-[Link to Project](https://instaagram.vercel.app/)
+Link to Project: [Instagram](https://instaagram.vercel.app/)
